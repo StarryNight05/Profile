@@ -8,6 +8,7 @@ import Menu from '@mui/material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
+import { BsMenuButtonWide } from 'react-icons/bs';
 
 
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -22,8 +23,12 @@ const Navbar = () => {
         setAnchorElNav(null);
     };
     return (
-        <AppBar>
-            <Container maxWidth="xl">
+        <AppBar sx={{
+            background: '#fff',
+            color: '#202529',
+            boxShadow: '0 0 8px #000'
+        }}>
+            <Container>
                 <Toolbar disableGutters>
                     <Typography
                         variant="h6"
@@ -40,7 +45,7 @@ const Navbar = () => {
                             textDecoration: 'none',
                         }}
                     >
-                        LOGO
+                        PORTOFOLIO
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -52,6 +57,7 @@ const Navbar = () => {
                             onClick={handleOpenNavMenu}
                             color="inherit"
                         >
+                            <BsMenuButtonWide></BsMenuButtonWide>
                         </IconButton>
                         <Menu
                             id="menu-appbar"
@@ -84,7 +90,7 @@ const Navbar = () => {
                         component="a"
                         href=""
                         sx={{
-                            mr: 2,
+                            mr: 3,
                             display: { xs: 'flex', md: 'none' },
                             flexGrow: 1,
                             fontFamily: 'monospace',
@@ -94,15 +100,15 @@ const Navbar = () => {
                             textDecoration: 'none',
                         }}
                     >
-                        LOGO
+                        PORTOFOLIO
                     </Typography>
 
-                    <Box sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex' } }}>
+                    <Box sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex' }, ml: 'auto' }}>
                         {pages.map((page) => (
                             <Button
                                 key={page}
                                 onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
+                                sx={{ color: '#000', display: 'block' }}
                             >
                                 {page}
                             </Button>

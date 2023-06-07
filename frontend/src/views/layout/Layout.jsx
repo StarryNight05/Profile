@@ -1,17 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import { Container } from '@mui/material'
 
 const Layout = ({ children }) => {
     return (
-        <React.Fragment>
+        <>
             <Navbar />
-            <Container maxWidth="lg" sx={{ marginTop: '8rem' }}>
+            <div className="main" style={{ minHeight: '100vh' }}>
                 <main>
                     {children}
                 </main>
-            </Container>
-        </React.Fragment >
+            </div>
+        </ >
     )
 }
 
