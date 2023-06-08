@@ -3,7 +3,6 @@ import Layout from './layout/Layout'
 import { Avatar, Card, CardContent, Container, Typography } from '@mui/material'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Unstable_Grid2'
-import { BsHouseDoor } from 'react-icons/bs'
 import FullWidthTabs from './components/MenuTab'
 import profile from './img/profile.jpg';
 
@@ -11,69 +10,101 @@ import profile from './img/profile.jpg';
 const Dashboard = () => {
     return (
         <Layout>
-            <Container maxWidth="lg" sx={{ marginTop: '8rem' }}>
-                <Grid container spacing={2} sx={{ display: 'flex', justifyContent: 'center', marginBottom: '5vh' }}>
-                    <Grid item md={12}>
-                        <Card sx={{
-                            background: '#fff',
-                            color: '#000',
-                            boxShadow: '0 0 5px #000'
-                        }}>
-                            <CardContent>
-                                <Box>
-                                    <Grid container spacing={2}>
-                                        <Grid item xs={12} md={3} sx={{
-                                            display: 'grid'
-                                        }}>
-                                            <div className="content" style={{
-                                                display: 'flex',
-                                                justifyContent: 'center'
+            <section style={{
+                background: '#F1D00A'
+            }}>
+                <Container maxWidth="lg">
+                    <Grid container spacing={2} sx={{ display: 'flex', justifyContent: 'center' }}>
+                        <Grid item md={12} sx={{ marginTop: { xs: '6.5rem', md: '8rem' }, marginBottom: '3rem' }}>
+                            <Card sx={{
+                                background: 'rgb(0, 30, 60)',
+                                color: '#fff',
+                                boxShadow: '0 0 5px #000'
+                            }}>
+                                <CardContent>
+                                    <Box>
+                                        <Grid container spacing={2}>
+                                            <Grid item xs={12} md={3} sx={{
+                                                display: 'grid'
                                             }}>
-                                                <Avatar sx={{ width: 160, height: 160 }} alt='profile' src={profile}></Avatar>
-                                            </div>
-                                            <div className="content" style={{
-                                                display: 'flex',
-                                                justifyContent: 'center'
-                                            }}>
-                                                <Typography variant='h5' gutterBottom noWrap sx={{
-                                                    marginTop: '2vh'
+                                                <div className="content" style={{
+                                                    display: 'flex',
+                                                    justifyContent: 'center'
                                                 }}>
-                                                    Bryant Sulthan Nugroho
-                                                </Typography>
-                                            </div>
-                                            <div className="break" style={{ display: 'flex', justifyContent: 'center' }}>
-                                                <hr style={{ width: '150px' }} />
-                                            </div>
-                                            <div className="content" style={{
-                                                display: 'flex',
-                                                justifyContent: 'center'
-                                            }}>
-                                                <Typography variant='subtitle' gutterBottom noWrap sx={{
-                                                    marginTop: '5px'
+                                                    <Avatar sx={{ width: 160, height: 160, border: '1px solid #001220', boxShadow: '0 0 5px #001220' }} alt='profile' src={profile}></Avatar>
+                                                </div>
+                                                <div className="content" style={{
+                                                    display: 'flex',
+                                                    justifyContent: 'center'
                                                 }}>
-                                                    Bogor, Indonesia
-                                                </Typography>
-                                            </div>
+                                                    <Typography variant='h6' gutterBottom noWrap sx={{
+                                                        marginTop: '2vh',
+                                                        fontFamily: 'Ubuntu'
+                                                    }}>
+                                                        Bryant Sulthan Nugroho
+                                                    </Typography>
+                                                </div>
+                                                <div className="break" style={{ display: 'flex', justifyContent: 'center' }}>
+                                                    <hr style={{ width: '150px' }} />
+                                                </div>
+                                                <div className="content" style={{
+                                                    display: 'flex',
+                                                    justifyContent: 'center'
+                                                }}>
+                                                    <Typography variant='subtitle' gutterBottom noWrap sx={{
+                                                        marginTop: '5px'
+                                                    }}>
+                                                        Bogor, Indonesia
+                                                    </Typography>
+                                                </div>
+                                            </Grid>
+                                            <Grid item xs={12} md={9} sx={{
+                                                borderLeft: 'solid 1px #fff',
+                                                display: { xs: 'none', md: 'grid' }
+                                            }}>
+                                                <div className="content">
+                                                    <Typography variant='subtitle' gutterBottom noWrap sx={{
+                                                        fontWeight: 'bold',
+                                                        color: '#FFC900'
+                                                    }}>
+                                                        About Me
+                                                    </Typography><br /><br />
+                                                    <Typography variant='subtitle' gutterBottom>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem, at adipisci consequuntur omnis aperiam totam! Corrupti est repellendus iste?
+                                                    </Typography>
+                                                </div>
+                                            </Grid>
+                                            <Grid item xs={12} md={9} sx={{
+                                                display: { xs: 'grid', md: 'none' }
+                                            }}>
+                                                <div className="content">
+                                                    <Typography variant='subtitle' gutterBottom noWrap sx={{
+                                                        fontWeight: 'bold',
+                                                        color: '#FFC900'
+                                                    }}>
+                                                        About Me
+                                                    </Typography><br />
+                                                    <Typography variant='subtitle' gutterBottom>
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem, at adipisci consequuntur omnis aperiam totam! Corrupti est repellendus iste?
+                                                    </Typography>
+                                                </div>
+                                            </Grid>
                                         </Grid>
-                                        <Grid item xs={12} md={9} sx={{
-                                            borderLeft: 'solid 1px #001220'
-                                        }}>
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed assumenda quam officiis porro debitis dignissimos at tenetur fugit nostrum suscipit.
-                                        </Grid>
-                                    </Grid>
-                                </Box>
-                            </CardContent>
-                        </Card>
+                                    </Box>
+                                </CardContent>
+                            </Card>
+                        </Grid>
                     </Grid>
-                </Grid>
-                <Typography variant='h5' gutterBottom sx={{
-                    fontWeight: 'bold'
-                }}>
-                    <BsHouseDoor></BsHouseDoor>&nbsp;Home <hr />
-                </Typography>
-                <FullWidthTabs></FullWidthTabs>
-            </Container>
-        </Layout>
+                </Container>
+            </section>
+            <section style={{
+                background: 'rgb(0, 30, 60)'
+            }}>
+                <Container maxWidth="lg" sx={{ padding: '1rem' }}>
+                    <FullWidthTabs></FullWidthTabs>
+                </Container>
+            </section>
+        </Layout >
     )
 }
 
