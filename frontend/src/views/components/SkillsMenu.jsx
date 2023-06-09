@@ -14,7 +14,7 @@ import sqlogo from '../img/Mysql.png'
 
 const SkillsMenu = () => {
     return (
-        <Box sx={{ flexGrow: 1, mt: '2rem' }}>
+        <Box sx={{ flexGrow: 1, mt: '3rem', mb: '3rem' }}>
             <div id="skills" style={{
                 display: 'flex',
                 justifyContent: 'center'
@@ -57,8 +57,8 @@ const SkillsMenu = () => {
                     <img src={js} alt="js" style={{ width: '40px' }} />
                 </Tooltip>
             </div>
-            <Grid container sx={{ display: 'flex', justifyContent: 'space-between', mt: '2rem', ml: { xs: 0, md: '9rem' } }}>
-                <Grid item xs={12} md={4} sx={{ mb: { xs: '2rem', md: '0' } }}>
+            <Grid container sx={{ display: 'flex', justifyContent: 'space-between', mt: '2rem', ml: { xs: '3rem', md: '9rem' } }}>
+                <Grid item xs={12} md={4} sx={{ mb: { xs: '1rem', md: '0' } }}>
                     <Typography variant='h6' sx={{
                         color: '#001220',
                         fontWeight: 'bold',
@@ -86,7 +86,7 @@ const SkillsMenu = () => {
                         <img src={mui} alt="mui" style={{ width: '30px' }} />&nbsp;Material UI
                     </Typography>
                 </Grid>
-                <Grid item xs={12} md={4}>
+                <Grid item xs={12} md={4} sx={{ mb: { xs: '1rem', md: '0' } }}>
                     <Typography variant='h6' sx={{
                         color: '#001220',
                         fontWeight: 'bold',
@@ -106,6 +106,16 @@ const SkillsMenu = () => {
                         mt: '.5rem'
                     }}>
                         <img src={njs} alt="njs" style={{ width: '30px' }} />&nbsp;NodeJS
+                    </Typography>
+                </Grid>
+                <Grid item xs={12} md={4}>
+                    <Typography variant='h6' sx={{
+                        color: '#001220',
+                        fontWeight: 'bold',
+                        fontFamily: 'Ubuntu',
+                        mb: '.5rem'
+                    }}>
+                        Database
                     </Typography>
                     <Typography variant='subtitle1' sx={{
                         display: 'flex',

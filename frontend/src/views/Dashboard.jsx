@@ -6,11 +6,13 @@ import Grid from '@mui/material/Unstable_Grid2'
 import FullWidthTabs from './components/MenuTab'
 import profile from './img/profile.jpg';
 import SkillsMenu from './components/SkillsMenu'
+import WorkExperience from './components/WorkExperience'
 
 
 const Dashboard = () => {
     return (
         <Layout>
+            {/* About ME */}
             <section style={{
                 background: '#F1D00A'
             }}>
@@ -70,8 +72,10 @@ const Dashboard = () => {
                                                     }}>
                                                         About Me
                                                     </Typography><br /><br />
-                                                    <Typography variant='subtitle' gutterBottom>
-                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem, at adipisci consequuntur omnis aperiam totam! Corrupti est repellendus iste?
+                                                    <Typography variant='body1' gutterBottom sx={{
+                                                        fontFamily: 'Ubuntu'
+                                                    }}>
+                                                        I graduated from SMK Bina Mandiri Multimedia, Cileungsi, majoring in software engineering. I have an interest in digital things, like backend developer and I'm also interested in robotics. During school I have created several websites and have also participated in remote car making competitions.
                                                     </Typography>
                                                 </div>
                                             </Grid>
@@ -85,8 +89,10 @@ const Dashboard = () => {
                                                     }}>
                                                         About Me
                                                     </Typography><br />
-                                                    <Typography variant='subtitle' gutterBottom>
-                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis dolorem, at adipisci consequuntur omnis aperiam totam! Corrupti est repellendus iste?
+                                                    <Typography variant='body1' gutterBottom sx={{
+                                                        fontFamily: 'Ubuntu'
+                                                    }}>
+                                                        I graduated from SMK Bina Mandiri Multimedia, Cileungsi, majoring in software engineering. I have an interest in digital things, like backend developer and I'm also interested in robotics. During school I have created several websites and have also participated in remote car making competitions.
                                                     </Typography>
                                                 </div>
                                             </Grid>
@@ -98,6 +104,8 @@ const Dashboard = () => {
                     </Grid>
                 </Container>
             </section>
+
+            {/* Menu */}
             <section style={{
                 background: 'rgb(0, 30, 60)'
             }}>
@@ -105,11 +113,22 @@ const Dashboard = () => {
                     <FullWidthTabs></FullWidthTabs>
                 </Container>
             </section>
+
+            {/* Skills */}
             <section style={{
-                background: '#FFFBEB'
+                background: '#F6F1E9'
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
                     <SkillsMenu></SkillsMenu>
+                </Container>
+            </section>
+
+            {/* Work Experience */}
+            <section style={{
+                background: '#F1D00A'
+            }}>
+                <Container maxWidth="lg" sx={{ padding: '1rem' }}>
+                    <WorkExperience></WorkExperience>
                 </Container>
             </section>
         </Layout >
