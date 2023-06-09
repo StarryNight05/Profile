@@ -5,6 +5,7 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Unstable_Grid2'
 import FullWidthTabs from './components/MenuTab'
 import profile from './img/profile.jpg';
+import SkillsMenu from './components/SkillsMenu'
 
 
 const Dashboard = () => {
@@ -102,6 +103,13 @@ const Dashboard = () => {
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
                     <FullWidthTabs></FullWidthTabs>
+                </Container>
+            </section>
+            <section style={{
+                background: '#FFFBEB'
+            }}>
+                <Container maxWidth="lg" sx={{ padding: '1rem' }}>
+                    <SkillsMenu></SkillsMenu>
                 </Container>
             </section>
         </Layout >
