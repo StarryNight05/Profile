@@ -8,6 +8,7 @@ import profile from './img/profile.jpg';
 import SkillsMenu from './components/SkillsMenu'
 import WorkExperience from './components/WorkExperience'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 
 const Dashboard = () => {
@@ -132,11 +133,30 @@ const Dashboard = () => {
                     <WorkExperience></WorkExperience>
                 </Container>
             </section>
+
+            {/* Portofolio */}
             <section style={{
                 background: '#F6F1E9'
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
                     <Projects></Projects>
+                </Container>
+            </section>
+
+            {/* Footer */}
+            <section style={{
+                background: 'rgb(0, 30, 60)',
+                borderBottom: '2px solid #F1D00A'
+            }}>
+                <Container maxWidth="lg" sx={{ padding: '1rem' }}>
+                    <Footer></Footer>
+                </Container>
+            </section>
+            <section style={{
+                background: 'rgb(0, 30, 60)'
+            }}>
+                <Container maxWidth="lg" sx={{ padding: '1rem', display: 'flex', justifyContent: 'center' }}>
+                    <Typography variant='body2' sx={{ color: '#F6F1E9', fontFamily: 'Ubuntu' }}>Copyright &copy; Bryant Sulthan Nugroho</Typography>
                 </Container>
             </section>
         </Layout >

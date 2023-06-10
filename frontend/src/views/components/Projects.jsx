@@ -43,10 +43,10 @@ const Projects = () => {
                 </Typography>
             </div>
             <Grid container spacing={2}>
-                <Grid item xs={6} md={4}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
-                            sx={{ height: '195px' }}
+                            sx={{ height: { xs: '148px', md: '195px' } }}
                             image={vote}
                             title="Evoting"
                         />
@@ -73,10 +73,10 @@ const Projects = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs={6} md={4}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
-                            sx={{ height: '195px' }}
+                            sx={{ height: { xs: '148px', md: '195px' } }}
                             image={spp}
                             title="SPP"
                         />
@@ -85,7 +85,7 @@ const Projects = () => {
                                 SPP
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Build with Bootstrap, JavaScript and PHP. This is a demo website I create when I was an internship.
+                                I created this website to get a certificate from the National Professional Certification Agency. This website built with Bootstrap, Javascript and PHP.
                             </Typography>
                         </CardContent>
                         <CardActions sx={{
@@ -103,10 +103,10 @@ const Projects = () => {
                         </CardActions>
                     </Card>
                 </Grid>
-                <Grid item xs={6} md={4}>
+                <Grid item xs={12} md={4}>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
-                            sx={{ height: '195px' }}
+                            sx={{ height: { xs: '148px', md: '195px' } }}
                             image={pkl}
                             title="Amana Tax"
                         />
@@ -115,7 +115,7 @@ const Projects = () => {
                                 Online Private Tutoring
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
-                                Build with Bootstrap, JavaScript and PHP. This is a demo website I create when I was an internship.
+                                Build with Bootstrap, Javascript and PHP. This is a demo website I create when I was an internship.
                             </Typography>
                         </CardContent>
                         <CardActions sx={{
