@@ -7,6 +7,7 @@ import FullWidthTabs from './components/MenuTab'
 import profile from './img/profile.jpg';
 import SkillsMenu from './components/SkillsMenu'
 import WorkExperience from './components/WorkExperience'
+import Projects from './components/Projects'
 
 
 const Dashboard = () => {
@@ -75,7 +76,7 @@ const Dashboard = () => {
                                                     <Typography variant='body1' gutterBottom sx={{
                                                         fontFamily: 'Ubuntu'
                                                     }}>
-                                                        I graduated from SMK Bina Mandiri Multimedia, Cileungsi, majoring in software engineering. I have an interest in digital things, like backend developer and I'm also interested in robotics. During school I have created several websites and have also participated in remote car making competitions.
+                                                        I graduated from SMK Bina Mandiri Multimedia, Cileungsi, majoring in software engineering. I have an interest in digital things, like backend developer and I'm also interested in robotics.
                                                     </Typography>
                                                 </div>
                                             </Grid>
@@ -92,7 +93,7 @@ const Dashboard = () => {
                                                     <Typography variant='body1' gutterBottom sx={{
                                                         fontFamily: 'Ubuntu'
                                                     }}>
-                                                        I graduated from SMK Bina Mandiri Multimedia, Cileungsi, majoring in software engineering. I have an interest in digital things, like backend developer and I'm also interested in robotics. During school I have created several websites and have also participated in remote car making competitions.
+                                                        I graduated from SMK Bina Mandiri Multimedia, Cileungsi, majoring in software engineering. I have an interest in digital things, like backend developer and I'm also interested in robotics.
                                                     </Typography>
                                                 </div>
                                             </Grid>
@@ -129,6 +130,13 @@ const Dashboard = () => {
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
                     <WorkExperience></WorkExperience>
+                </Container>
+            </section>
+            <section style={{
+                background: '#F6F1E9'
+            }}>
+                <Container maxWidth="lg" sx={{ padding: '1rem' }}>
+                    <Projects></Projects>
                 </Container>
             </section>
         </Layout >
