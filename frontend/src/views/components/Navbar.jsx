@@ -1,27 +1,27 @@
 import React from 'react'
 import AppBar from '@mui/material/AppBar';
-import Box from '@mui/material/Box';
+// import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
+// import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
+// import Menu from '@mui/material/Menu';
 import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
-import MenuItem from '@mui/material/MenuItem';
-import { BsMenuButtonWide } from 'react-icons/bs';
+// import Button from '@mui/material/Button';
+// import MenuItem from '@mui/material/MenuItem';
+// import { BsMenuButtonWide } from 'react-icons/bs';
 
 
-const pages = ['Products', 'Pricing', 'Blog'];
+// const pages = ['Products', 'Pricing', 'Blog'];
 
 const Navbar = () => {
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
+    // const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
+    // const handleOpenNavMenu = (event) => {
+    //     setAnchorElNav(event.currentTarget);
+    // };
+    // const handleCloseNavMenu = () => {
+    //     setAnchorElNav(null);
+    // };
     return (
         <AppBar sx={{
             background: '#fff',
@@ -48,7 +48,7 @@ const Navbar = () => {
                         Bryant Sulthan Nugroho
                     </Typography>
 
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                    {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -83,7 +83,7 @@ const Navbar = () => {
                                 </MenuItem>
                             ))}
                         </Menu>
-                    </Box>
+                    </Box> */}
                     <Typography
                         variant="overline"
                         noWrap
@@ -101,7 +101,7 @@ const Navbar = () => {
                         Bryant Sulthan Nugroho
                     </Typography>
 
-                    <Box sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex' }, ml: 'auto' }}>
+                    {/* <Box sx={{ flexGrow: 0, display: { xs: 'none', md: 'flex' }, ml: 'auto' }}>
                         {pages.map((page) => (
                             <Button
                                 key={page}
@@ -111,7 +111,7 @@ const Navbar = () => {
                                 {page}
                             </Button>
                         ))}
-                    </Box>
+                    </Box> */}
                 </Toolbar>
             </Container>
         </AppBar >

@@ -156,7 +156,7 @@ const Dashboard = () => {
                 background: 'rgb(0, 30, 60)'
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem', display: 'flex', justifyContent: 'center' }}>
-                    <Typography variant='body2' sx={{ color: '#F6F1E9', fontFamily: 'Ubuntu' }}>Copyright &copy; Bryant Sulthan Nugroho</Typography>
+                    <Typography variant='body2' sx={{ color: '#F6F1E9', fontFamily: 'Ubuntu' }}>Copyright &copy; 2023 Bryant Sulthan Nugroho</Typography>
                 </Container>
             </section>
         </Layout >

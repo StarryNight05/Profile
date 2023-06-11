@@ -11,6 +11,7 @@ import pkl from '../img/pkl.png'
 import spp from '../img/spp.png'
 import vote from '../img/evote.png'
 import { BsGithub } from 'react-icons/bs';
+
 const Projects = () => {
     return (
         <Box sx={{ flexGrow: 1, mt: '3rem', mb: '3rem' }}>
@@ -62,10 +63,14 @@ const Projects = () => {
                             margin: '5px'
                         }}>
                             <Button size="small" href='https://github.com/StarryNight05/Evoting' sx={{
-                                background: '#fff',
-                                color: '#001220',
+                                background: '#001220',
+                                '&:hover': {
+                                    background: '#fff',
+                                    color: '#001220'
+                                },
+                                color: '#fff',
                                 fontFamily: 'Ubuntu',
-                                border: '2px solid #001220',
+                                border: '2px solid #001220'
                             }}
                             >
                                 Go To Github&nbsp;<BsGithub style={{ marginLeft: '3px', marginRight: '4px' }}></BsGithub>
@@ -82,7 +87,7 @@ const Projects = () => {
                         />
                         <CardContent>
                             <Typography gutterBottom variant="h6" component="div">
-                                SPP
+                                School Administration
                             </Typography>
                             <Typography variant="body2" color="text.secondary">
                                 I created this website to get a certificate from the National Professional Certification Agency. This website built with Bootstrap, Javascript and PHP.
@@ -91,11 +96,15 @@ const Projects = () => {
                         <CardActions sx={{
                             margin: '5px'
                         }}>
-                            <Button size="small" href='https://github.com/StarryNight05/Intern-AmanaTax' sx={{
-                                background: '#fff',
-                                color: '#001220',
+                            <Button size="small" href='https://github.com/StarryNight05/spp' sx={{
+                                background: '#001220',
+                                '&:hover': {
+                                    background: '#fff',
+                                    color: '#001220'
+                                },
+                                color: '#fff',
                                 fontFamily: 'Ubuntu',
-                                border: '2px solid #001220',
+                                border: '2px solid #001220'
                             }}
                             >
                                 Go To Github&nbsp;<BsGithub style={{ marginLeft: '3px', marginRight: '4px' }}></BsGithub>
@@ -122,10 +131,14 @@ const Projects = () => {
                             margin: '5px'
                         }}>
                             <Button size="small" href='https://github.com/StarryNight05/Intern-AmanaTax' sx={{
-                                background: '#fff',
-                                color: '#001220',
+                                background: '#001220',
+                                '&:hover': {
+                                    background: '#fff',
+                                    color: '#001220'
+                                },
+                                color: '#fff',
                                 fontFamily: 'Ubuntu',
-                                border: '2px solid #001220',
+                                border: '2px solid #001220'
                             }}
                             >
                                 Go To Github&nbsp;<BsGithub style={{ marginLeft: '3px', marginRight: '4px' }}></BsGithub>

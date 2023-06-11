@@ -49,8 +49,16 @@ const Footer = () => {
                     <Typography variant="body1" gutterBottom sx={{
                         color: '#F6F1E9'
                     }}>
-                        <Typography variant='body1' gutterBottom><a href="https://github.com/StarryNight05" id='git' style={{ textDecoration: 'none', color: '#fff' }}><BsGithub></BsGithub>&nbsp;Github</a></Typography>
-                        <Typography variant='body1' gutterBottom><a href="https://instagram.com/bryant_7305?igshid=MzNlNGNkZWQ4Mg==" id='git' style={{ textDecoration: 'none', color: '#fff' }}><BsInstagram></BsInstagram>&nbsp;Instagram</a></Typography>
+                        <Typography variant='body1' gutterBottom>
+                            <a href="https://github.com/StarryNight05" id='git' style={{ textDecoration: 'none', color: '#fff' }}>
+                                <BsGithub></BsGithub>&nbsp;Github
+                            </a>
+                        </Typography>
+                        <Typography variant='body1' gutterBottom>
+                            <a href="https://instagram.com/bryant_7305?igshid=MzNlNGNkZWQ4Mg==" id='git' style={{ textDecoration: 'none', color: '#fff' }}>
+                                <BsInstagram></BsInstagram>&nbsp;Instagram
+                            </a>
+                        </Typography>
                     </Typography>
                 </Grid>
             </Grid>

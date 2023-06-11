@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material'
 
 const WorkExperience = () => {
     return (
-        <Box sx={{ flexGrow: 1, mt: '2rem', mb: '2rem' }}>
+        <Box sx={{ flexGrow: 1, mt: '1rem', mb: '2rem' }}>
             <div id="work-experience" style={{
                 display: 'flex',
                 justifyContent: 'center'
