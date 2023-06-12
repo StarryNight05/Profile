@@ -1,8 +1,8 @@
 {
-  "homepage": "https://starrynight05.github.io/Profile/",
   "name": "portofolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://starrynight05.github.io/Profile/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
