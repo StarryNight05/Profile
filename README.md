@@ -1,46 +1,33 @@
-# Getting Started with Create React App and Redux
+# React Note App
+## _Build with React+Vite and Tailwind_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+Note app with ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white), Toastify, and Local Storage
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Search🔎 your note📝 from the pile of notes🗒
+- Save➕ your note📝 with local storage
+- Notification📄 for every action🦾 
 
-### `npm start`
+## Statistic
+|Statistic Type|Amount|
+|:---:|:---:|
+|Development|![GitHub commit activity](https://img.shields.io/github/commit-activity/y/ninoslat1/react-note-app)|
+|Language|![GitHub top language](https://img.shields.io/github/languages/top/ninoslat1/react-note-app?color=yellow)|
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This app uses a number of open source projects to work properly:
 
-### `npm test`
+- [React](https://reactjs.org/) - A JavaScript library for building user interfaces
+- [Tailwind CSS](https://getbootstrap.com/) - A utility-first CSS framework packed with classes
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- [Toastify](https://www.npmjs.com/package/react-toastify) - Add notifications to your app with ease. No more nonsense!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
 
-### `npm run build`
+MIT
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## References
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Chris Blakely](https://www.youtube.com/watch?v=8KB3DHI-QbM)
