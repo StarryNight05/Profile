@@ -4,7 +4,7 @@ import { Avatar, Card, CardContent, Container, Typography } from '@mui/material'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Unstable_Grid2'
 import FullWidthTabs from './components/MenuTab'
-import profile from './img/profile.jpg';
+import profile from './img/profile.png';
 import SkillsMenu from './components/SkillsMenu'
 import WorkExperience from './components/WorkExperience'
 import Projects from './components/Projects'
