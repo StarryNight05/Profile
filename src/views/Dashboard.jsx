@@ -110,7 +110,8 @@ const Dashboard = () => {
             {/* Menu */}
             <section style={{
                 background: 'rgb(0, 30, 60)'
-            }}>
+            }}
+            >
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
                     <FullWidthTabs></FullWidthTabs>
                 </Container>
