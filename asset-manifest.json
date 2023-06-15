@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/StarryNight05/Profile.git/static/js/main.9f497b48.js",
-    "static/media/pkl.png": "/StarryNight05/Profile.git/static/media/pkl.48ed03121cea68e81d67.png",
-    "static/media/profile.png": "/StarryNight05/Profile.git/static/media/profile.fc8701414f9fc7dd584e.png",
-    "static/media/evote.png": "/StarryNight05/Profile.git/static/media/evote.c360612e3c3f5c671525.png",
-    "static/media/spp.png": "/StarryNight05/Profile.git/static/media/spp.dd72d3a9147c5b2c91c2.png",
-    "static/media/skills.png": "/StarryNight05/Profile.git/static/media/skills.a81b7edc5951a92d71b0.png",
-    "static/media/portofolio.png": "/StarryNight05/Profile.git/static/media/portofolio.e84ddf0f883f3eb7f495.png",
-    "index.html": "/StarryNight05/Profile.git/index.html",
-    "main.9f497b48.js.map": "/StarryNight05/Profile.git/static/js/main.9f497b48.js.map"
+    "main.js": "/Profile/static/js/main.c5ebcc4c.js",
+    "static/media/pkl.png": "/Profile/static/media/pkl.48ed03121cea68e81d67.png",
+    "static/media/profile.png": "/Profile/static/media/profile.fc8701414f9fc7dd584e.png",
+    "static/media/evote.png": "/Profile/static/media/evote.c360612e3c3f5c671525.png",
+    "static/media/spp.png": "/Profile/static/media/spp.dd72d3a9147c5b2c91c2.png",
+    "static/media/skills.png": "/Profile/static/media/skills.a81b7edc5951a92d71b0.png",
+    "static/media/portofolio.png": "/Profile/static/media/portofolio.e84ddf0f883f3eb7f495.png",
+    "index.html": "/Profile/index.html",
+    "main.c5ebcc4c.js.map": "/Profile/static/js/main.c5ebcc4c.js.map"
   },
   "entrypoints": [
-    "static/js/main.9f497b48.js"
+    "static/js/main.c5ebcc4c.js"
   ]
 }
