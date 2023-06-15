@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/profile/static/js/0.5f716f7e.chunk.js"
   },
   {
-    "revision": "ba91ed6a17cccef3ba1d",
-    "url": "/profile/static/js/main.ba91ed6a.chunk.js"
+    "revision": "fecbfc00182ccaeadc2e",
+    "url": "/profile/static/js/main.fecbfc00.chunk.js"
   },
   {
     "revision": "49e2eaa367ce24612c93",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/profile/static/media/evote.943be19f.png"
   },
   {
-    "revision": "fe4df42d1dd7df8613f1caec8caf866b",
+    "revision": "aeeac57dd0939de3f84ac1a775ec6419",
     "url": "/profile/index.html"
   }
 ];
