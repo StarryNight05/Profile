@@ -1,24 +1,16 @@
 {
   "files": {
-    "main.js": "/Profile/static/js/main.18822ad3.js",
-    "static/media/pkl.png": "/Profile/static/media/pkl.48ed03121cea68e81d67.png",
-    "static/media/Node.png": "/Profile/static/media/Node.aa8bc616bb8252fa29f3.png",
-    "static/media/evote.png": "/Profile/static/media/evote.c360612e3c3f5c671525.png",
-    "static/media/spp.png": "/Profile/static/media/spp.dd72d3a9147c5b2c91c2.png",
-    "static/media/js.png": "/Profile/static/media/js.1074e2ad09f9ffb9b7bd.png",
-    "static/media/skills.png": "/Profile/static/media/skills.a81b7edc5951a92d71b0.png",
-    "static/media/Bootstrap.png": "/Profile/static/media/Bootstrap.f132cb791703420e69ca.png",
-    "static/media/html.png": "/Profile/static/media/html.b02cd82107034f61bb70.png",
-    "static/media/profile.jpg": "/Profile/static/media/profile.141d423a06b46165a0a0.jpg",
-    "static/media/Mysql.png": "/Profile/static/media/Mysql.0fa268260d693783ed38.png",
-    "static/media/portofolio.png": "/Profile/static/media/portofolio.e84ddf0f883f3eb7f495.png",
-    "static/media/React.png": "/Profile/static/media/React.e71f4c5b0c4306d65355.png",
-    "static/media/css.png": "/Profile/static/media/css.400c7ab4b3a40f3deb69.png",
-    "static/media/mui.png": "/Profile/static/media/mui.a9de1286737b55d560ad.png",
-    "index.html": "/Profile/index.html",
-    "main.18822ad3.js.map": "/Profile/static/js/main.18822ad3.js.map"
+    "main.js": "/StarryNight05/Profile.git/static/js/main.9f497b48.js",
+    "static/media/pkl.png": "/StarryNight05/Profile.git/static/media/pkl.48ed03121cea68e81d67.png",
+    "static/media/profile.png": "/StarryNight05/Profile.git/static/media/profile.fc8701414f9fc7dd584e.png",
+    "static/media/evote.png": "/StarryNight05/Profile.git/static/media/evote.c360612e3c3f5c671525.png",
+    "static/media/spp.png": "/StarryNight05/Profile.git/static/media/spp.dd72d3a9147c5b2c91c2.png",
+    "static/media/skills.png": "/StarryNight05/Profile.git/static/media/skills.a81b7edc5951a92d71b0.png",
+    "static/media/portofolio.png": "/StarryNight05/Profile.git/static/media/portofolio.e84ddf0f883f3eb7f495.png",
+    "index.html": "/StarryNight05/Profile.git/index.html",
+    "main.9f497b48.js.map": "/StarryNight05/Profile.git/static/js/main.9f497b48.js.map"
   },
   "entrypoints": [
-    "static/js/main.18822ad3.js"
+    "static/js/main.9f497b48.js"
   ]
 }
