@@ -69,7 +69,7 @@ const Projects = () => {
                         <CardActions sx={{
                             margin: '5px'
                         }}>
-                            <Button size="small" href='https://github.com/StarryNight05/Evoting' sx={{
+                            <Button size="small" href='https://github.com/starry-night05/Evoting' sx={{
                                 background: '#001220',
                                 '&:hover': {
                                     background: '#fff',
@@ -103,7 +103,7 @@ const Projects = () => {
                         <CardActions sx={{
                             margin: '5px'
                         }}>
-                            <Button size="small" href='https://github.com/StarryNight05/spp' sx={{
+                            <Button size="small" href='https://github.com/starry-night05/spp' sx={{
                                 background: '#001220',
                                 '&:hover': {
                                     background: '#fff',
@@ -137,7 +137,7 @@ const Projects = () => {
                         <CardActions sx={{
                             margin: '5px'
                         }}>
-                            <Button size="small" href='https://github.com/StarryNight05/Intern-AmanaTax' sx={{
+                            <Button size="small" href='https://github.com/starry-night05/Intern-AmanaTax' sx={{
                                 background: '#001220',
                                 '&:hover': {
                                     background: '#fff',

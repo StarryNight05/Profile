@@ -50,7 +50,7 @@ const Footer = () => {
                         color: '#F6F1E9'
                     }}>
                         <Typography variant='body1' gutterBottom>
-                            <a href="https://github.com/StarryNight05" id='git' style={{ textDecoration: 'none', color: '#fff' }}>
+                            <a href="https://github.com/starry-night05" id='git' style={{ textDecoration: 'none', color: '#fff' }}>
                                 <BsGithub></BsGithub>&nbsp;Github
                             </a>
                         </Typography>
