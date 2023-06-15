@@ -16,7 +16,7 @@ import { BsGithub } from 'react-icons/bs';
 const Projects = () => {
     return (
         <Box sx={{ flexGrow: 1, mt: '3rem', mb: '3rem' }}>
-            <div id="skills" style={{
+            <div id="portofolio" style={{
                 display: 'flex',
                 justifyContent: 'center'
             }}>
@@ -30,7 +30,7 @@ const Projects = () => {
                     Portofolio
                 </Typography>
             </div>
-            <div id="skills" style={{
+            <div id="portofolio" style={{
                 display: 'flex',
                 justifyContent: 'center'
             }}>
@@ -56,7 +56,8 @@ const Projects = () => {
                             <Typography gutterBottom variant="h6" component="div">
                                 Student Council E-voting
                             </Typography>
-                            <Typography variant="body2" color="text.secondary" sx={{ overflow: 'hidden',
+                            <Typography variant="body2" color="text.secondary" sx={{
+                                overflow: 'hidden',
                                 textOverflow: 'ellipsis',
                                 display: '-webkit-box',
                                 WebkitLineClamp: '3',
