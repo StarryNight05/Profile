@@ -2,7 +2,7 @@
   "name": "portofolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://starrynight05.github.io/profile",
+  "homepage": "http://starrynight05.github.io/Profile/",
   "dependencies": {
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
