@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/Profile/static/js/main.c5ebcc4c.js",
-    "static/media/pkl.png": "/Profile/static/media/pkl.48ed03121cea68e81d67.png",
-    "static/media/profile.png": "/Profile/static/media/profile.fc8701414f9fc7dd584e.png",
-    "static/media/evote.png": "/Profile/static/media/evote.c360612e3c3f5c671525.png",
-    "static/media/spp.png": "/Profile/static/media/spp.dd72d3a9147c5b2c91c2.png",
-    "static/media/skills.png": "/Profile/static/media/skills.a81b7edc5951a92d71b0.png",
-    "static/media/portofolio.png": "/Profile/static/media/portofolio.e84ddf0f883f3eb7f495.png",
-    "index.html": "/Profile/index.html",
-    "main.c5ebcc4c.js.map": "/Profile/static/js/main.c5ebcc4c.js.map"
+    "main.js": "/starrynight-port/static/js/main.b7934e3f.js",
+    "static/media/pkl.png": "/starrynight-port/static/media/pkl.48ed03121cea68e81d67.png",
+    "static/media/profile.png": "/starrynight-port/static/media/profile.fc8701414f9fc7dd584e.png",
+    "static/media/evote.png": "/starrynight-port/static/media/evote.c360612e3c3f5c671525.png",
+    "static/media/spp.png": "/starrynight-port/static/media/spp.dd72d3a9147c5b2c91c2.png",
+    "static/media/skills.png": "/starrynight-port/static/media/skills.a81b7edc5951a92d71b0.png",
+    "static/media/portofolio.png": "/starrynight-port/static/media/portofolio.e84ddf0f883f3eb7f495.png",
+    "index.html": "/starrynight-port/index.html",
+    "main.b7934e3f.js.map": "/starrynight-port/static/js/main.b7934e3f.js.map"
   },
   "entrypoints": [
-    "static/js/main.c5ebcc4c.js"
+    "static/js/main.b7934e3f.js"
   ]
 }
