@@ -12,6 +12,7 @@ import spp from '../img/spp.png'
 import vote from '../img/evote.png'
 import { BsGithub } from 'react-icons/bs';
 
+
 const Projects = () => {
     return (
         <Box sx={{ flexGrow: 1, mt: '3rem', mb: '3rem' }}>
@@ -55,7 +56,12 @@ const Projects = () => {
                             <Typography gutterBottom variant="h6" component="div">
                                 Student Council E-voting
                             </Typography>
-                            <Typography variant="body2" color="text.secondary">
+                            <Typography variant="body2" color="text.secondary" sx={{ overflow: 'hidden',
+                                textOverflow: 'ellipsis',
+                                display: '-webkit-box',
+                                WebkitLineClamp: '3',
+                                WebkitBoxOrient: 'vertical',
+                            }}>
                                 To make it easier for students to choose the student council president and make it easier to calculate the results of votes. This Website built with Bootstrap, Javascript and PHP.
                             </Typography>
                         </CardContent>

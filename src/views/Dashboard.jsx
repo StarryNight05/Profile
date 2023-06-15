@@ -5,11 +5,11 @@ import Box from '@mui/material/Box'
 import Grid from '@mui/material/Unstable_Grid2'
 import FullWidthTabs from './components/MenuTab'
 import profile from './img/profile.png';
-import SkillsMenu from './components/SkillsMenu'
-import WorkExperience from './components/WorkExperience'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
 
+const SkillsMenu = React.lazy(() => import('./components/SkillsMenu'));
+const WorkExperience = React.lazy(() => import('./components/WorkExperience'));
+const Projects = React.lazy(() => import('./components/Projects'));
+const Footer = React.lazy(() => import('./components/Footer'));
 
 const Dashboard = () => {
     return (
