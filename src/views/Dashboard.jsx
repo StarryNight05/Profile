@@ -70,7 +70,7 @@ const Dashboard = () => {
                                                     <Typography variant='subtitle' gutterBottom noWrap sx={{
                                                         marginTop: '5px'
                                                     }}>
-                                                        <Button href="/docs/CV.pdf" download sx={{
+                                                        <Button href="CV.pdf" download sx={{
                                                             background: '#F1D00A',
                                                             color: 'rgb(0, 30, 60)',
                                                             fontWeight: 'bold',
