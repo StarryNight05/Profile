@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from './layout/Layout'
-import { Avatar, Card, CardContent, Container, Typography } from '@mui/material'
+import { Avatar, Card, CardContent, Container, Typography, Button } from '@mui/material'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Unstable_Grid2'
 import FullWidthTabs from './components/MenuTab'
 import profile from './img/profile.png';
+import { BsDownload } from 'react-icons/bs'
 
 const SkillsMenu = React.lazy(() => import('./components/SkillsMenu'));
 const WorkExperience = React.lazy(() => import('./components/WorkExperience'));
@@ -60,6 +61,24 @@ const Dashboard = () => {
                                                         marginTop: '5px'
                                                     }}>
                                                         Bogor, Indonesia
+                                                    </Typography>
+                                                </div>
+                                                <div className="cv" style={{
+                                                    display: 'flex',
+                                                    justifyContent: 'center'
+                                                }}>
+                                                    <Typography variant='subtitle' gutterBottom noWrap sx={{
+                                                        marginTop: '5px'
+                                                    }}>
+                                                        <Button href="/docs/CV.pdf" download sx={{
+                                                            background: '#F1D00A',
+                                                            color: 'rgb(0, 30, 60)',
+                                                            fontWeight: 'bold',
+                                                            '&:hover': {
+                                                                background: '#fff',
+                                                                color: '#000'
+                                                            }
+                                                        }}><BsDownload></BsDownload>&nbsp;Download</Button>
                                                     </Typography>
                                                 </div>
                                             </Grid>

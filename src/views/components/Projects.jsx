@@ -44,7 +44,7 @@ const Projects = () => {
                     Lastest Projects
                 </Typography>
             </div>
-            <Grid container spacing={2}>
+            <Grid container spacing={2} sx={{ display: 'flex', justifyContent: 'center' }}>
                 <Grid item xs={12} md={4}>
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia
