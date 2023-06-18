@@ -63,7 +63,7 @@ const Dashboard = () => {
                                                         Bogor, Indonesia
                                                     </Typography>
                                                 </div>
-                                                <div className="cv" style={{
+                                                {/* <div className="cv" style={{
                                                     display: 'flex',
                                                     justifyContent: 'center'
                                                 }}>
@@ -80,7 +80,7 @@ const Dashboard = () => {
                                                             }
                                                         }}><BsDownload></BsDownload>&nbsp;Download</Button>
                                                     </Typography>
-                                                </div>
+                                                </div> */}
                                             </Grid>
                                             <Grid item xs={12} md={9} sx={{
                                                 borderLeft: 'solid 1px #fff',
